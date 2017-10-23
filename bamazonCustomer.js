@@ -25,7 +25,7 @@ connection.connect(function(err) {
 function displayItems() {
   connection.query("SELECT * FROM bamazonTable", function(err, res) {
 
-    console.log("\n=================================5");
+    console.log("\n=================================");
     console.log("The following items are for sale:\n");
 
     for (i = 0; i < res.length; i++){
